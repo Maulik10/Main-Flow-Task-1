@@ -1,0 +1,45 @@
+# Create a list
+my_list = [1, 2, 3]
+
+# Basic operations on the list
+print("Original list:", my_list)
+# Adding an element
+my_list.append(4)
+print("After adding an element:", my_list)
+# Removing an element
+my_list.remove(2)
+print("After removing an element:", my_list)
+# Modifying an element
+my_list[0] = 10
+print("After modifying an element:", my_list)
+
+# Create a dictionary 
+my_dict = {'a': 1, 'b': 2, 'c': 3}
+
+# Basic operations on the dictionary
+print("\nOriginal dictionary:", my_dict)
+# Adding a key-value pair
+my_dict['d'] = 4
+print("After adding a key-value pair:", my_dict)
+# Removing a key-value pair
+del my_dict['b']
+print("After removing a key-value pair:", my_dict)
+# Modifying a value
+my_dict['a'] = 10
+print("After modifying a value:", my_dict)
+
+# Create a set
+my_set = {1, 2, 3}
+
+# Basic operations on the set
+print("\nOriginal set:", my_set)
+# Adding an element
+my_set.add(4)
+print("After adding an element:", my_set)
+# Removing an element
+my_set.remove(2)
+print("After removing an element:", my_set)
+# an element to achieve a similar effect
+my_set.discard(1)
+my_set.add(10)
+print("After modifying an element:", my_set)
